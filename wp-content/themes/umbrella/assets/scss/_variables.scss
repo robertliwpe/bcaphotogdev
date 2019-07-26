@@ -1,0 +1,75 @@
+// main color
+$color_main: #f44336 !default;
+
+// dark colors
+$color_dark: #212121 !default;
+
+// text colors
+$color_text: #fff !default;
+
+// bootstrap colors
+$color_primary: #0275d8 !default;
+$color_success: #5cb85c !default;
+$color_info: #5bc0de !default;
+$color_warning: #f0ad4e !default;
+$color_danger: #d9534f !default;
+
+// main colors list
+$colors: (
+    "main"  : $color_main,
+    "primary" : $color_primary,
+    "success" : $color_success,
+    "info"    : $color_info,
+    "warning" : $color_warning,
+    "danger"  : $color_danger,
+    "white"   : $color_text,
+    "black"   : #000,
+    "dark"  : $color_dark
+) !default;
+
+// z indexes
+$z_navbar: 8 !default;
+$z_navbar_bg: 4 !default;
+$z_navbar_mobile: 10 !default;
+$z_navbar_mobile_bg: 9 !default;
+$z_layout_top_left: 7 !default;
+$z_layout_top_right: 11 !default;
+$z_layout_top_center: 4 !default;
+$z_layout_bottom_left: 7 !default;
+$z_layout_bottom_left_blog: 9 !default;
+$z_layout_bottom_right: 3 !default;
+$z_layout_bottom_center: 9 !default;
+$z_layout_content_title: 5 !default;
+$z_slider: 0 !default;
+$z_content: 6 !default;
+$z_content_bg: 4 !default;
+$z_content_mobile_bg: 5 !default;
+$z_content_main: 6 !default;
+$z_content_main_bg: 5 !default;
+$z_content_main_mobile_bg: 5 !default;
+$z_blog_second_list_item: 8 !default;
+$z_blog_second_list_item_mobile: 5 !default;
+
+// fonts
+$font_headings: "Helvetica", "Roboto", "Arial", sans-serif !default;
+$font_body: $font_headings !default;
+$html_font_size: 14px !default;
+$body_line_height: 2.287 !default;
+$headings_line_height: 1.7 !default;
+$display_headings_line_height: 1.1 !default;
+
+// media variables
+$media_xxs:           "(max-width: 543px)" !default;
+$media_xs:            "(max-width: 767px)" !default;
+$media_sm:            "(min-width: 767px) and (max-width: 991px)" !default;
+$media_md:            "(min-width: 992px) and (max-width: 1199px)" !default;
+$media_lg:            "(min-width: 1200)" !default;
+
+// additional variables
+$media_smaller_xs:    "(max-width: 767px)" !default;
+$media_smaller_sm:    "(max-width: 991px)" !default;
+$media_smaller_md:    "(max-width: 1199px)" !default;
+$media_larger_xs:     "(min-width: 544px)" !default;
+$media_larger_sm:     "(min-width: 768px)" !default;
+$media_larger_md:     "(min-width: 992px)" !default;
+$media_larger_lg:     "(min-width: 1200px)" !default;

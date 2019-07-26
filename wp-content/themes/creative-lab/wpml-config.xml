@@ -1,0 +1,26 @@
+<!-- 
+cmsmasters_package: Creative Lab
+cmsmasters_version: 1.0.0
+-->
+<wpml-config>
+    <admin-texts>
+        <key name="cmsmasters_options_creative_lab_header">
+            <key name="creative_lab_header_top_line_short_info" />
+            <key name="creative_lab_header_top_line_donations_but_text" />
+            <key name="creative_lab_header_donations_but_text" />
+            <key name="creative_lab_header_add_cont_cust_html" />
+        </key>
+		<key name="cmsmasters_options_creative_lab_footer">
+            <key name="creative_lab_footer_html" />
+            <key name="creative_lab_footer_copyright" />
+        </key>
+		<key name="cmsmasters_options_creative_lab_single_project">
+            <key name="creative_lab_portfolio_project_details_title" />
+        </key>
+		<key name="cmsmasters_options_creative_lab_single_profile">
+            <key name="creative_lab_profile_post_details_title" />
+        </key>
+    </admin-texts>
+</wpml-config>
+
+

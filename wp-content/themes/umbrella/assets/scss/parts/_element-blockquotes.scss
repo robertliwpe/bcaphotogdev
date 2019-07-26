@@ -1,0 +1,48 @@
+.nk-blockquote {
+    position: relative;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 45px;
+    margin: 40px 0;
+    font-size: 15px;
+    font-style: italic;
+    z-index: 1;
+
+    &::after {
+        content: "";
+        position: absolute;
+        display: block;
+        top: 0;
+        right: -100px;
+        bottom: 0;
+        left: -100px;
+        background-color: #fbfbfb;
+        border-top: 1px solid #efefef;
+        border-bottom: 1px solid #efefef;
+        z-index: -1;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    cite {
+        position: absolute;
+        display: block;
+        bottom: 100%;
+        left: 0;
+        margin-bottom: -48px;
+        margin-left: -10px;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        white-space: nowrap;
+        -webkit-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+                transform: rotate(90deg);
+        -webkit-transform-origin: 0 100%;
+            -ms-transform-origin: 0 100%;
+                transform-origin: 0 100%;
+    }
+}

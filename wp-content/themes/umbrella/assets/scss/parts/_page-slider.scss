@@ -1,0 +1,162 @@
+
+// slider
+.nk-slider {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: $z_slider;
+
+    // default slider items
+    > .nk-slider-item {
+        display: none;
+    }
+
+    // Hide images, that don't have src.
+    // When enabled transition effect "bottom", on the page load we will see the lines around this img tag.
+    // So, better to hide it.
+    img:not([src]) {
+        display: none;
+    }
+
+    .nk-slider-current-slide img,
+    .nk-slider-next-slide img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        -o-object-fit: cover;
+           object-fit: cover;
+        -o-object-position: 50% 50%;
+           object-position: 50% 50%;
+    }
+
+    .nk-slider-video-slide::after {
+        content: "";
+        position: absolute;
+        display: block;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 2;
+    }
+    .nk-slider-video-slide iframe,
+    .nk-slider-video-slide video {
+        position: absolute;
+        top: 0;
+        left: 100%;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+    }
+}
+
+// slider nav
+.nk-slider-nav {
+    font-weight: 600;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    // bullets list
+    > ul {
+        padding: 0;
+        padding-bottom: 61px;
+        margin: 0;
+        margin-right: 1px;
+        list-style-type: none;
+
+        &::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        > li {
+            position: relative;
+            margin: 3px 0;
+            text-align: center;
+            cursor: pointer;
+            -webkit-transition: .2s color ease, .2s opacity;
+            -o-transition: .2s color ease, .2s opacity;
+            transition: .2s color ease, .2s opacity;
+            -webkit-transform: rotate(90deg);
+                -ms-transform: rotate(90deg);
+                    transform: rotate(90deg);
+
+            &.active,
+            &:hover,
+            &.hover {
+                color: $color_main;
+            }
+        }
+    }
+
+    // arrows
+    .nk-slider-nav-prev,
+    .nk-slider-nav-next {
+        position: relative;
+        right: -2px;
+        height: 27px;
+        cursor: pointer;
+        -webkit-transition: .2s color ease;
+        -o-transition: .2s color ease;
+        transition: .2s color ease;
+
+        &:hover,
+        &.hover {
+            color: $color_main;
+        }
+    }
+
+    // slim style
+    &.nk-slider-nav-slim {
+        // bullets list
+        > ul {
+            padding-bottom: 98px;
+
+            > li {
+                position: absolute;
+                color: $color_main;
+                cursor: default;
+                visibility: hidden;
+                opacity: 0;
+                -webkit-transition: .2s color ease, .2s opacity, .2s visibility;
+                -o-transition: .2s color ease, .2s opacity, .2s visibility;
+                transition: .2s color ease, .2s opacity, .2s visibility;
+
+                &.active {
+                    visibility: visible;
+                    opacity: 1;
+                }
+            }
+        }
+
+        // arrows
+        .nk-slider-nav-prev,
+        .nk-slider-nav-next {
+            right: 0;
+        }
+    }
+}
+
+// mobile
+@media #{$media_smaller_sm} {
+    .nk-slider-nav {
+        display: none;
+    }
+    .nk-nav .nk-slider-categories {
+        display: none;
+    }
+}

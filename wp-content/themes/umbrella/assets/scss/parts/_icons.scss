@@ -1,0 +1,151 @@
+// burger icon
+.nk-icon-burger {
+    position: relative;
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+
+    &:hover,
+    &.hover {
+        color: $color_main;
+    }
+
+    > span {
+        position: absolute;
+        display: block;
+        top: 50%;
+        left: 5px;
+        width: 16px;
+        height: 0;
+        margin-top: -1px;
+        border-bottom: 2px solid currentColor;
+        -webkit-transition: .2s color ease, .2s transform ease, .2s margin ease, .2s opacity ease;
+        -o-transition: .2s color ease, .2s transform ease, .2s margin ease, .2s opacity ease;
+        transition: .2s color ease, .2s transform ease, .2s margin ease, .2s opacity ease;
+    }
+
+    .nk-t-1 {
+        margin-top: -6px;
+        -webkit-transform-origin: 0 0;
+            -ms-transform-origin: 0 0;
+                transform-origin: 0 0;
+    }
+    .nk-t-3 {
+        margin-top: 4px;
+        -webkit-transform-origin: 0 100%;
+            -ms-transform-origin: 0 100%;
+                transform-origin: 0 100%;
+    }
+
+    // active state
+    &.active,
+    .active > & {
+        .nk-t-2 {
+            opacity: 0;
+        }
+        .nk-t-1 {
+            margin-top: -6px;
+            margin-left: 3px;
+            -webkit-transform: rotate(45deg);
+                -ms-transform: rotate(45deg);
+                    transform: rotate(45deg);
+        }
+        .nk-t-3 {
+            margin-top: 5px;
+            margin-left: 3px;
+            -webkit-transform: rotate(-45deg);
+                -ms-transform: rotate(-45deg);
+                    transform: rotate(-45deg);
+        }
+    }
+}
+
+// arrow icons
+.nk-icon-arrow {
+    &-right,
+    &-left,
+    &-down,
+    &-up {
+        position: relative;
+        display: inline-block;
+        width: 16px;
+        height: 12px;
+
+        &::after {
+            content: "";
+            position: absolute;
+            display: block;
+            left: 25%;
+            width: 8px;
+            height: 8px;
+            border-right: 2px solid;
+            border-bottom: 2px solid;
+            -webkit-transform: rotate(135deg);
+                -ms-transform: rotate(135deg);
+                    transform: rotate(135deg);
+            -webkit-transform-origin: 50% 50%;
+                -ms-transform-origin: 50% 50%;
+                    transform-origin: 50% 50%;
+        }
+    }
+    &-right {
+        &::after {
+            -webkit-transform: rotate(-45deg);
+                -ms-transform: rotate(-45deg);
+                    transform: rotate(-45deg);
+        }
+    }
+    &-down {
+        &::after {
+            -webkit-transform: rotate(45deg);
+                -ms-transform: rotate(45deg);
+                    transform: rotate(45deg);
+        }
+    }
+    &-up {
+        &::after {
+            -webkit-transform: rotate(-135deg);
+                -ms-transform: rotate(-135deg);
+                    transform: rotate(-135deg);
+        }
+    }
+}
+
+
+// toggle icons (see in navbar cart icon)
+.nk-icon-toggle {
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    -webkit-transition: .3s transform;
+    -o-transition: .3s transform;
+    transition: .3s transform;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+
+    .nk-icon-toggle-front {
+        display: inline-block;
+        width: 100%;
+        -webkit-transform: rotateY(0deg);
+                transform: rotateY(0deg);
+        -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;
+    }
+    .nk-icon-toggle-back {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        -webkit-transform: rotateY(-180deg);
+                transform: rotateY(-180deg);
+        -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;
+    }
+
+    a.active > &,
+    span.active > &,
+    &.active {
+        -webkit-transform: rotateY(180deg);
+                transform: rotateY(180deg);
+    }
+}

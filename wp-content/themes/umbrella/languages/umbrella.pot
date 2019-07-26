@@ -1,0 +1,559 @@
+# Copyright (C) 2019 Umbrella
+# This file is distributed under the same license as the Umbrella package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Umbrella\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: nK <https://nkdev.info>\n"
+"Last-Translator: nK <https://nkdev.info>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: dist/umbrella/admin/admin-init.php:34
+msgid "Main"
+msgstr ""
+
+#: dist/umbrella/admin/admin-init.php:51
+msgid "Light"
+msgstr ""
+
+#: dist/umbrella/admin/admin-init.php:67
+msgid "Video"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:89
+msgid "Navigation"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:97
+msgid "Typography"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:105
+msgid "Style"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:113
+msgid "Single Page / Post"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:119, dist/umbrella/admin/theme-options.php:155, dist/umbrella/admin/theme-options.php:177
+msgid "Slider"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:126, dist/umbrella/admin/theme-options.php:184, dist/umbrella/admin/theme-options.php:401
+msgid "Titles"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:133, dist/umbrella/admin/theme-options.php:162, dist/umbrella/admin/theme-options.php:191
+msgid "Navigations"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:140
+msgid "Content"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:149
+msgid "Archive (Posts List)"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:171
+msgid "404"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:204
+msgid "Logo Image"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:214
+msgid "Black Logo Image"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:215
+msgid "Used when slider image or background color have light color"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:232
+msgid "Logo Width"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:257
+msgid "Background Image"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:274
+msgid "Background Image on Mobile"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:291, dist/umbrella/admin/theme-options.php:1464
+msgid "Background Color"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:308
+msgid "Background Color on Mobile"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:325, dist/umbrella/admin/theme-options.php:1001, dist/umbrella/admin/theme-options.php:1542
+msgid "Text Color"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:342
+msgid "Text Color on Mobile"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:363
+msgid "Body"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:383
+msgid "HTML"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:420, dist/umbrella/admin/theme-options.php:684
+msgid "H1 Titles"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:443, dist/umbrella/admin/theme-options.php:707
+msgid "H2 Titles"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:466, dist/umbrella/admin/theme-options.php:730
+msgid "H3 Titles"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:489, dist/umbrella/admin/theme-options.php:753
+msgid "H4 Titles"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:512, dist/umbrella/admin/theme-options.php:776
+msgid "H5 Titles"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:535, dist/umbrella/admin/theme-options.php:799
+msgid "H6 Titles"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:558, dist/umbrella/admin/theme-options.php:822
+msgid "Display 1 Titles"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:581, dist/umbrella/admin/theme-options.php:845
+msgid "Display 2 Titles"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:604, dist/umbrella/admin/theme-options.php:868
+msgid "Display 3 Titles"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:627, dist/umbrella/admin/theme-options.php:891
+msgid "Display 4 Titles"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:650
+msgid "Navbar Items"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:674
+msgid "Mobile Settings"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:675
+msgid "Options below will be used for mobile devices. Headings for screen size <= 1199px and Navbar for screen size <= 991px"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:914
+msgid "Navbar Items Mobile"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:943
+msgid "Required Plugin"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:944
+msgid "To generate custom styles you should install nK Themes Helper Plugin"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:954
+msgid "Enable Custom Styles"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:965
+msgid "Main Color"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:983
+msgid "Dark Color"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1063, dist/umbrella/admin/theme-options.php:1564, dist/umbrella/admin/theme-options.php:1673
+msgid "Active Slide"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1064, dist/umbrella/admin/theme-options.php:1565, dist/umbrella/admin/theme-options.php:1674
+msgid "Select active category for slider. Make sure to active slide that placed in active category."
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1075, dist/umbrella/admin/theme-options.php:1576, dist/umbrella/admin/theme-options.php:1685
+msgid "Active Category"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1076, dist/umbrella/admin/theme-options.php:1577, dist/umbrella/admin/theme-options.php:1686
+msgid "Select active category for slide."
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1087, dist/umbrella/admin/theme-options.php:1697
+msgid "Transition Effect"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1088, dist/umbrella/admin/theme-options.php:1698
+msgid "Transition effect between slides."
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1099, dist/umbrella/admin/theme-options.php:1709
+msgid "Transition Speed"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1100, dist/umbrella/admin/theme-options.php:1710
+msgid "Transition speed for effect."
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1115, dist/umbrella/admin/theme-options.php:1725
+msgid "Category Transition Effect"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1116, dist/umbrella/admin/theme-options.php:1726
+msgid "Transition effect between categories."
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1127, dist/umbrella/admin/theme-options.php:1737
+msgid "Category Transition Speed"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1128, dist/umbrella/admin/theme-options.php:1738
+msgid "Transition speed for category effect."
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1143, dist/umbrella/admin/theme-options.php:1753
+msgid "Autoplay"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1153, dist/umbrella/admin/theme-options.php:1763
+msgid "Autoplay Timer"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1175, dist/umbrella/admin/theme-options.php:1588, dist/umbrella/admin/theme-options.php:1785
+msgid "Force Reload Slider"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1176, dist/umbrella/admin/theme-options.php:1589, dist/umbrella/admin/theme-options.php:1786
+msgid "Force reload the whole slider (slides, active slide and active category) when ajax page loaded."
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1181, dist/umbrella/admin/theme-options.php:1594, dist/umbrella/admin/theme-options.php:1791
+msgid "Disable"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1191, dist/umbrella/admin/theme-options.php:1604, dist/umbrella/admin/theme-options.php:1801
+msgid "Custom Set of Slides"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1192, dist/umbrella/admin/theme-options.php:1605, dist/umbrella/admin/theme-options.php:1802
+msgid "If you don't want to use default set of slides, you can set your own."
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1202, dist/umbrella/admin/theme-options.php:1615, dist/umbrella/admin/theme-options.php:1812
+msgid "Slides"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1220, dist/umbrella/admin/theme-options.php:1830
+msgid "Navigation Style"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1236
+msgid "Title"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1237
+msgid "Big text in center of screen with main text color."
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1241
+msgid "Page Title"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1242
+msgid "Custom"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1251, dist/umbrella/admin/theme-options.php:1846
+msgid "Type Title"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1268, dist/umbrella/admin/theme-options.php:1856
+msgid "Subtitle"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1278, dist/umbrella/admin/theme-options.php:1866
+msgid "Tagline"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1292, dist/umbrella/admin/theme-options.php:1638, dist/umbrella/admin/theme-options.php:1880
+msgid "Show Top Left Navigation"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1302, dist/umbrella/admin/theme-options.php:1648, dist/umbrella/admin/theme-options.php:1890
+msgid "Show Bottom Left Navigation"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1312, dist/umbrella/admin/theme-options.php:1658, dist/umbrella/admin/theme-options.php:1900
+msgid "Show Bottom Center Navigation"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1326
+msgid "Show Content"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1336
+msgid "Show Default Title"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1337
+msgid "Show current page title. Disable it If you want to add custom title in content."
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1354
+msgid "Vertical Align"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1355
+msgid "Vertical position for content."
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1359, dist/umbrella/admin/theme-options.php:1400, dist/umbrella/admin/theme-options.php:1423
+msgid "Top"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1360
+msgid "Center"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1361, dist/umbrella/admin/theme-options.php:1401, dist/umbrella/admin/theme-options.php:1424
+msgid "Bottom"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1377
+msgid "Under Title"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1378
+msgid "Big title in center of screen will be above background of content and under content text."
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1395
+msgid "Transition In"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1396
+msgid "Show animation for content block."
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1402, dist/umbrella/admin/theme-options.php:1425
+msgid "Right"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1418
+msgid "Transition Out"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1419
+msgid "Hide animation for content block."
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1441
+msgid "Transition Speed [ms]"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1442
+msgid "Speed for In and Out animations."
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1481
+msgid "Background Opacity"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1503
+msgid "Background Color Mobile"
+msgstr ""
+
+#: dist/umbrella/admin/theme-options.php:1520
+msgid "Background Opacity Mobile"
+msgstr ""
+
+#: dist/umbrella/comments.php:30
+msgid "Comments"
+msgstr ""
+
+#: dist/umbrella/comments.php:35, dist/umbrella/comments.php:60
+msgid "Comment navigation"
+msgstr ""
+
+#: dist/umbrella/comments.php:38, dist/umbrella/comments.php:63
+msgid "Older Comments"
+msgstr ""
+
+#: dist/umbrella/comments.php:39, dist/umbrella/comments.php:64
+msgid "Newer Comments"
+msgstr ""
+
+#: dist/umbrella/comments.php:52, dist/umbrella/comments.php:106
+msgid "Reply"
+msgstr ""
+
+#: dist/umbrella/comments.php:76
+msgid "Comments are closed."
+msgstr ""
+
+#: dist/umbrella/comments.php:91
+msgid "Your Name"
+msgstr ""
+
+#: dist/umbrella/comments.php:95
+msgid "Your Email"
+msgstr ""
+
+#: dist/umbrella/comments.php:99
+msgid "Your Website"
+msgstr ""
+
+#: dist/umbrella/comments.php:114
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: dist/umbrella/comments.php:127
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr ""
+
+#: dist/umbrella/comments.php:140
+msgid "Your email address will not be published."
+msgstr ""
+
+#: dist/umbrella/comments.php:140
+msgid "Required fields are marked *"
+msgstr ""
+
+#: dist/umbrella/comments.php:145
+msgid "Comment"
+msgstr ""
+
+#: dist/umbrella/functions.php:62
+msgid "Primary"
+msgstr ""
+
+#: dist/umbrella/functions.php:63
+msgid "Top Left"
+msgstr ""
+
+#: dist/umbrella/functions.php:64
+msgid "Bottom Left"
+msgstr ""
+
+#: dist/umbrella/functions.php:65
+msgid "Bottom Left for Blog"
+msgstr ""
+
+#: dist/umbrella/functions.php:66
+msgid "Bottom Center"
+msgstr ""
+
+#: dist/umbrella/inc/comments-walker.php:75
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: dist/umbrella/inc/extras.php:77
+msgid "Fade"
+msgstr ""
+
+#: dist/umbrella/inc/extras.php:78
+msgid "Divide"
+msgstr ""
+
+#: dist/umbrella/inc/extras.php:79
+msgid "Slide Top"
+msgstr ""
+
+#: dist/umbrella/inc/extras.php:80
+msgid "Slide Left"
+msgstr ""
+
+#: dist/umbrella/inc/extras.php:81
+msgid "Slide Right"
+msgstr ""
+
+#: dist/umbrella/inc/extras.php:82
+msgid "Slide Bottom"
+msgstr ""
+
+#: dist/umbrella/inc/extras.php:115
+msgid "Full"
+msgstr ""
+
+#: dist/umbrella/inc/extras.php:116
+msgid "Slim"
+msgstr ""
+
+#: dist/umbrella/inc/extras.php:130
+msgid "F j, Y "
+msgstr ""
+
+#. translators: %s: Name of current post
+#. translators: %s: Name of current post
+#: dist/umbrella/inc/template-tags.php:18, dist/umbrella/template-parts/content-page.php:44
+msgid "Edit %s"
+msgstr ""
+
+#: dist/umbrella/search.php:23
+msgid "Search Results for: %s"
+msgstr ""
+
+#: dist/umbrella/searchform.php:10
+msgid "Type something..."
+msgstr ""
+
+#: dist/umbrella/searchform.php:12
+msgid "Search"
+msgstr ""
+
+#: dist/umbrella/template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: dist/umbrella/template-parts/content-none.php:22
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: dist/umbrella/template-parts/content-none.php:26
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: dist/umbrella/template-parts/content-none.php:33
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: dist/umbrella/template-parts/content-page.php:31, dist/umbrella/template-parts/content.php:58
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post.
+#: dist/umbrella/template-parts/content.php:45
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: dist/umbrella/template-parts/layout-titles.php:41
+msgid "Search."
+msgstr ""

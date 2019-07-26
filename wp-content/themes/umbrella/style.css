@@ -1,0 +1,336 @@
+/*
+Theme Name: Umbrella
+Theme URI: https://themeforest.net/item/umbrella-photography-wordpress-theme/18068692?ref=_nK
+Theme ID: 18068692
+Author: nK
+Author URI: https://themeforest.net/user/_nk
+Description: Photography Theme
+Version: 2.1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: umbrella
+Tags: one-column, custom-colors, custom-menu, custom-logo, featured-images, theme-options, threaded-comments, translation-ready, news, photography, portfolio
+*/
+
+/* Wordpress CSS */
+.gallery {
+    margin-bottom: 1.6em;
+}
+
+.gallery-item {
+    display: inline-block;
+    width: 100%;
+    padding: 1.79104477%;
+    text-align: center;
+    vertical-align: top;
+}
+
+.gallery-columns-2 .gallery-item {
+    max-width: 50%;
+}
+
+.gallery-columns-3 .gallery-item {
+    max-width: 33.33%;
+}
+
+.gallery-columns-4 .gallery-item {
+    max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+    max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+    max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+    max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+    max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+    max-width: 11.11%;
+}
+
+.gallery-icon img {
+    margin: 0 auto;
+}
+
+.gallery-caption {
+    display: block;
+    padding: .5em 0;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.gallery-columns-6 .gallery-caption,
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption {
+    display: none;
+}
+
+.nk-comment.bypostauthor > .nk-comment-meta > .nk-comment-name {
+    padding: 3px 8px;
+    margin-bottom: 2px;
+    background-color: #e8e8e8;
+}
+
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.entry-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.wp-caption {
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    color: #000;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #f0f0f0;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    width: auto;
+    max-width: 98.5%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+    padding: 0 4px 5px;
+    margin: 0;
+    font-size: 11px;
+    line-height: 17px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+    /* stylelint-disable-next-line */
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+.screen-reader-text:focus {
+    display: block;
+    top: 5px;
+    left: 5px;
+    width: auto;
+    height: auto;
+    padding: 15px 23px 14px;
+    /* stylelint-disable-next-line */
+    clip: auto !important;
+    font-size: 14px;
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: normal;
+    color: #21759b;
+    text-decoration: none;
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, .6);
+    z-index: 100000; /* Above WP toolbar. */
+}
+
+/* Table for posts */
+table {
+    margin-bottom: 30px;
+    border: 1px solid #dedede;
+}
+table th,
+table td {
+    padding: 5px 15px;
+    border-top: 1px solid #dedede;
+    border-left: 1px solid #dedede;
+}
+
+
+/* Top margin when admin bar enabled */
+
+/* 32px */
+body.admin-bar .nk-main,
+body.admin-bar .nk-main + .nk-main-bg,
+body.admin-bar .nk-navbar,
+body.admin-bar .nk-slider {
+    top: 32px;
+}
+body.admin-bar .nk-main {
+    bottom: 0;
+    height: auto;
+}
+body.admin-bar .nk-navbar + .nk-navbar-bg {
+    top: calc(-100% + 64px);
+    height: calc(100% - 32px);
+}
+body.admin-bar .nk-layout .nk-layout-top-center,
+body.admin-bar .nk-layout .nk-layout-top-left,
+body.admin-bar .nk-layout .nk-layout-top-right {
+    margin-top: 32px;
+}
+body.admin-bar .nk-blog .nk-blog-rendered .nk-blog-item:nth-of-type(1) {
+    height: calc(50% - 32px);
+    margin-top: 32px;
+}
+
+/* 46px */
+@media screen and (max-width: 782px) {
+    body.admin-bar .nk-main,
+    body.admin-bar .nk-main + .nk-main-bg,
+    body.admin-bar .nk-navbar,
+    body.admin-bar .nk-slider {
+        top: 46px;
+    }
+    body.admin-bar .nk-navbar + .nk-navbar-bg {
+        top: calc(-100% + 92px);
+        height: calc(100% - 46px);
+    }
+    body.admin-bar .nk-layout .nk-layout-top-center,
+    body.admin-bar .nk-layout .nk-layout-top-left,
+    body.admin-bar .nk-layout .nk-layout-top-right {
+        margin-top: 46px;
+    }
+    body.admin-bar .nk-blog .nk-blog-rendered .nk-blog-item:nth-of-type(1) {
+        height: calc(50% - 46px);
+        margin-top: 46px;
+    }
+}
+@media (max-width: 768px) {
+    body.admin-bar .nk-blog .nk-blog-rendered .nk-blog-item:nth-of-type(1) {
+        height: calc(33.333% - 46px);
+        margin-top: 46px;
+    }
+}
+
+/* Fixed comments avatar height */
+.nk-comments .nk-comment .nk-comment-avatar img {
+    height: auto;
+}
+
+/* Fixed kc row paddings */
+.kc_row > .kc-row-container.kc-container {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/* Cancel reply link in comments */
+.nk-cancel-reply {
+    font-size: .8rem;
+}
+.nk-cancel-reply a {
+    margin-left: 10px;
+    color: inherit;
+}
+.nk-comment + .comment-respond {
+    margin-top: 20px;
+}
+
+/* King Composer Images Gallery */
+.kc-image-gallery {
+    width: auto;
+    min-width: 100%;
+    margin-right: -20px;
+    margin-left: -20px;
+}
+.kc-image-gallery .item-grid {
+    padding: 20px;
+}
+.kc-image-gallery .item-grid img {
+    margin: 0;
+}
+
+/*
+ * Responsive embeds
+ */
+.responsive-embed {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    clear: both;
+}
+
+.responsive-embed.responsive-embed-16x9 {
+    padding-bottom: 56.25%;
+}
+
+.responsive-embed.responsive-embed-4x3 {
+    padding-bottom: 75%;
+}
+
+.responsive-embed > .embed-item,
+.responsive-embed > iframe,
+.responsive-embed > embed,
+.responsive-embed > object {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
