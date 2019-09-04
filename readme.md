@@ -2,7 +2,11 @@ Demo for Devkit -> CircleCI integration -> WP Engine
 By Robert Li (WP Engine, Solutions Engineer, Assoc., APAC)
 
 This demo uses:
-bcaphotogdev Development Site for BCA photography site
+bcaphotogdev Development Site for BCA photography site as an example, change with your own.
+
+Ensure that you have already pulled an install from your account with $ wpe clone [INSTALL]
+
+Ensure that Local DevKit has been initialised by navigating ($cd) into the install folder and entering $ wpe start
 
 ```
 Create SSH Key pair for github:
